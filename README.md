@@ -1,0 +1,2 @@
+# fk-generator
+基于MyBatis Plus插件制作的Java代码生成器，可以直接Import Module的方式嵌入你的项目，支持生成代码文件直接输出到指定项目Module和磁盘。支持自定义代码模板。支持Beetl、Freemarker、Velocity模板引擎输出文件。
