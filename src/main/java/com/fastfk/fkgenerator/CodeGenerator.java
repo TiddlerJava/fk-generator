@@ -147,7 +147,7 @@ public class CodeGenerator {
         // 公共父类
         strategy.setSuperControllerClass("com.baomidou.mybatisplus.extension.api.ApiController");
         // 写于父类中的公共字段
-        strategy.setSuperEntityColumns("id");
+//        strategy.setSuperEntityColumns("id");
         strategy.setInclude(tableName.split(","));
         strategy.setControllerMappingHyphenStyle(true);
         strategy.setTablePrefix(pc.getModuleName() + "_");
