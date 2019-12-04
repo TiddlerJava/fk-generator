@@ -23,6 +23,13 @@ public class FkGeneratorApplication {
          * 多张表的代码生成，表名使用英文逗号隔开
          */
         CodeGenerator.generator("fk-generator", "com.fastfk.fkgenerator", "user,size");
+
+        /**
+         * 如果有多级子module，按如下格式填写moduleName
+         */
+        //CodeGenerator.generator("module-name/child-module-name/child-child-module-name", "com.fastfk.fkservicetest", "user,size");
+
+
         /**
          * 使用不同模板引擎
          */
